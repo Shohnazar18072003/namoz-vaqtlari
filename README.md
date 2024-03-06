@@ -1,3 +1,15 @@
+```bash
+ npm install -g pnpm
+```
+
+```bash
+pnpm i
+```
+
+```bash
+pnpm dev
+```
+
 # Namoz Vaqti API
 
 Namoz vaqtlarini bilish mumkin bo'lgan API. Ma'lumotlar islom.uz saytidan olingan.
@@ -62,7 +74,6 @@ Shu hafta uchun namoz taqvimi olish uchun: https://islomapi.uz/api/present/week?
 Bir kun uchun namoz taqvimini olish uchun: https://islomapi.uz/api/daily?region=Toshkent&month=4=4&day=5
 
 Bir oylik namoz taqvimini olish uchun: https://islomapi.uz/api/monthly?region=Toshkent&month=4
-
 
 #### Viloyat va mintaqalar (JSON)
 
@@ -178,8 +189,5 @@ const regions = [
 
 
 ```
-
-
-
 
 ### Author: islom.uz

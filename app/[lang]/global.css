@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply text-white font-medium capitalize;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+}
+
+blockquote {
+  border-inline-start: 4px solid white;
+}
+
+tr {
+  @apply flex items-center px-2 py-4 border-b-2 border-yellow-400;
+}
